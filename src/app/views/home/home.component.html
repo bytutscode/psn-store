@@ -1,0 +1,11 @@
+<div class="games-card-container">
+   <ng-container *ngFor="let game of games">
+      <app-game-card
+       [cardLabel]="game.cardLabel"
+       [consoles]="game.consoles"
+       [label]="game.label"
+       [price]="game.price"
+       [gamePhoto]="game.gamePhoto"
+       ></app-game-card>
+   </ng-container>
+</div>

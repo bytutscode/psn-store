@@ -1,0 +1,14 @@
+ul {
+    list-style:none ;
+    display: flex;
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: color ease-in-out .25s;
+}
+ul li a:hover {
+   color: blue;
+}
